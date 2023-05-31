@@ -23,6 +23,7 @@ background: #c7c9c9;
        outline: 120px solid;
        outline-color: #3b56a6;
        border-radius: 8px;
+       border:20px;
        background:#c7c9c9;
        cursor: pointer;
 
@@ -39,7 +40,7 @@ font-family: 'LINESeedKR-Bd';
   padding: 100px 205px;
   outline: 120px solid;
   outline-color: #3b56a6;
-  order: 100px;
+  border: 100px;
   border-radius: 12px;
   cursor: pointer;
   background-color: #c7c9c9;
