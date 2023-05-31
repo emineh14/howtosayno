@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How to say NO!</title>
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e6e8e8;
+
+  
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 120px;
+  text-decoration: none;
+}
+
+header{height: 700px; background: url('header.png'); background-size: cover}
+header{ margin:auto;flex-wrap: wrap;}
+.wrap{width: 1400px; margin: auto;
+		padding: 200px 0;}
+.not img{height: 760px; width: 1400px; margin: auto;display: block;}
+.wrap1{width: 1400px; margin: auto;
+		padding: 50px 0;}
+.not1 img{height: 2779px; width: 1400px; margin: auto;display: block;}
+.wrap2{width: 1400px; margin: auto;
+		padding: 0px 0;}
+.not2 img{height: 620px; width: 1400px; margin: auto;display: block;}
+.wrap3{width: 1400px; margin: auto;
+		padding: 0px 0;}
+.not3 img{height: 1600px; width: 1400px; margin: auto;display: block;}
+}
+.wrap4{width: 1400px; margin: auto;
+		padding: 0px 0;}
+.not4 img{height: 2000px; width: 1400px; margin: auto;display: block;}
+}
+
+
+
+	</style>
+</head>
+
+<body>
+<header>
+    <nav>
+	  <section id="Home">
+		<div class="wrapper">
+		  <ul class="menu">
+		  <li><a href="#Home">Home</a></li>
+		  <li><a href="#About">About</a></li>
+		  <li><a href="#How to">How to</a></li>
+		  <li><a href="#Useful">Useful</a></li>
+		  <li><a href="#Test">Test</a></li>
+       </ul>
+      </div>
+     </nav>
+    </section>
+   </header>
+
+<section id="About">
+<section class="wrap">
+			<div class="not">
+			<img src="web1.png">
+
+</section>
+<section id="How to">
+<section class="wrap1">
+			<div class="not1">
+			<img src="web2.png">
+
+</section>
+<section id="Useful">
+<section class="wrap2">
+			<div class="not2">
+			<img src="web3.png">
+
+</section>
+<section id="Test">
+<section class="wrap3">
+	<div class="not3">
+	<img src="web4.png">
+
+	<!--Start Quiz Button -->
+
+
+<button class="open-button" onclick="openForm()">Start</button>
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+ 
+  	<label for="quesion"> 일주일 만에 처음으로 쉬는 날입니다. 넷플릭스를 보고 밀린 집안일을 하고 있을 때 함께 일하는 동료가 전화를 걸어 오늘 밤 자기 대신 교대 근무를 해 달라고 요청합니다. 어떻게 대답 할건가요?</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> "음 계획이 있긴하지만 할 수 있을 것 같습니다!
+    </label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2">"네!"</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> "아, 죄송해요. 일이 있어서 못 할 것 같습니다!"</label><br><br>
+    <button type="submit" onclick="alert('The result has been sent to your email address!')" class="btn">Submit </button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>	
+</div>
+<section class="wrap4">
+			<div class="not4">
+			<img src="web5.png">
+</section>
+	</div>
+</body>
+</html>
