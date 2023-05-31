@@ -55,7 +55,7 @@ font-family: 'LINESeedKR-Bd';
 .form-popup {
   display: none;
   position:absolute;
-  top:833%;
+  top:832%;
   left:52%;
   transform: translate(-90%, -90%);
   border: 3px solid #3b56a6;
