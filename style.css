@@ -37,7 +37,7 @@ font-family: 'LINESeedKR-Bd';
   text-align: center;
   text-decoration: none;
   color: black;
-  padding: 130px 270px;
+  padding: 142px 275px;
   border: 100px solid;
   border-radius: 16px;
   border-color:#3b56a6; 
@@ -54,7 +54,7 @@ font-family: 'LINESeedKR-Bd';
   display: none;
   position:absolute;
   top:863%;
-  left:59%;
+  left:57%;
   transform: translate(-90%, -90%);
   z-index: 9;
 }
