@@ -44,8 +44,8 @@ font-family: 'LINESeedKR-Bd';
   cursor: pointer;
   background-color: #c7c9c9;
   position:absolute;
-  top:865%;
-  left:50%;
+  top:860%;
+  left:55%;
   transform: translate(-90%, -90%);
   bottom: 23px;
   right: 28px;
@@ -55,8 +55,8 @@ font-family: 'LINESeedKR-Bd';
 .form-popup {
   display: none;
   position:absolute;
-  top:870%;
-  left:46%;
+  top:858%;
+  left:50%;
   transform: translate(-90%, -90%);
   z-index: 9;
 }
